@@ -14,7 +14,8 @@ public class Loop{
       for(/* Infinte Loop logic  */){
         //var++;
         char c = (char)(r.nextInt(26) + 'a'); //Get random a-z char
-//
+        String updatedChain = "";
+          
         if (chain.length() < key.length()) {
           chain =  chain + c;
         //break|continue REPLACE|INFINITE;
